@@ -1,0 +1,36 @@
+[23-May-2016 09:00:39 UTC] PHP Warning:  require_once(/home/u804114810/main_laravel/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/u804114810/main_laravel/vendor/autoload.php on line 5
+[23-May-2016 09:00:39 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/u804114810/main_laravel/vendor/composer/autoload_real.php' (include_path='.:/opt/php-5.5/pear') in /home/u804114810/main_laravel/vendor/autoload.php on line 5
+[23-May-2016 09:10:41 UTC] PHP Warning:  require_once(/home/u804114810/main_laravel/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/u804114810/main_laravel/vendor/autoload.php on line 5
+[23-May-2016 09:10:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/u804114810/main_laravel/vendor/composer/autoload_real.php' (include_path='.:/opt/php-5.5/pear') in /home/u804114810/main_laravel/vendor/autoload.php on line 5
+[23-May-2016 09:13:57 UTC] PHP Warning:  require_once(/home/u804114810/main_laravel/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/u804114810/main_laravel/vendor/autoload.php on line 5
+[23-May-2016 09:13:57 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/u804114810/main_laravel/vendor/composer/autoload_real.php' (include_path='.:/opt/php-5.5/pear') in /home/u804114810/main_laravel/vendor/autoload.php on line 5
+[23-May-2016 16:28:42 UTC] PHP Parse error:  syntax error, unexpected '(' in /home/u804114810/main_laravel/app/storage/views/7df9708ed28f9963cd9db2c832a54210 on line 11
+[23-May-2016 16:28:42 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (1)' in /home/u804114810/main_laravel/bootstrap/compiled.php:10434
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(8, 'ob_end_flush():...', '/home/u80411481...', 10434, Array)
+#1 /home/u804114810/main_laravel/bootstrap/compiled.php(10434): ob_end_flush()
+#2 /home/u804114810/main_laravel/bootstrap/compiled.php(10101): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/u804114810/main_laravel/bootstrap/compiled.php(9383): Symfony\Component\HttpFoundation\Response->send()
+#4 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#5 {main}
+  thrown in /home/u804114810/main_laravel/bootstrap/compiled.php on line 10434
+[23-May-2016 16:29:47 UTC] PHP Parse error:  syntax error, unexpected ''asset/css/home.css'' (T_CONSTANT_ENCAPSED_STRING) in /home/u804114810/main_laravel/app/storage/views/7df9708ed28f9963cd9db2c832a54210 on line 11
+[23-May-2016 16:29:47 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (1)' in /home/u804114810/main_laravel/bootstrap/compiled.php:10434
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(8, 'ob_end_flush():...', '/home/u80411481...', 10434, Array)
+#1 /home/u804114810/main_laravel/bootstrap/compiled.php(10434): ob_end_flush()
+#2 /home/u804114810/main_laravel/bootstrap/compiled.php(10101): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/u804114810/main_laravel/bootstrap/compiled.php(9383): Symfony\Component\HttpFoundation\Response->send()
+#4 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#5 {main}
+  thrown in /home/u804114810/main_laravel/bootstrap/compiled.php on line 10434
+[23-May-2016 16:30:30 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/u804114810/main_laravel/app/storage/views/7df9708ed28f9963cd9db2c832a54210 on line 11
+[23-May-2016 16:30:30 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'ob_end_flush(): failed to send buffer of zlib output compression (1)' in /home/u804114810/main_laravel/bootstrap/compiled.php:10434
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(8, 'ob_end_flush():...', '/home/u80411481...', 10434, Array)
+#1 /home/u804114810/main_laravel/bootstrap/compiled.php(10434): ob_end_flush()
+#2 /home/u804114810/main_laravel/bootstrap/compiled.php(10101): Symfony\Component\HttpFoundation\Response::closeOutputBuffers(0, true)
+#3 /home/u804114810/main_laravel/bootstrap/compiled.php(9383): Symfony\Component\HttpFoundation\Response->send()
+#4 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#5 {main}
+  thrown in /home/u804114810/main_laravel/bootstrap/compiled.php on line 10434

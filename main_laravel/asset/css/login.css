@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 1, 2016, 11:36:11 AM
+    Author     : Nur Chamdani
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #BEE9EA;
+}
+#container{
+    width: 20%;
+    margin: 20% 0% 0% 50%;
+    background: #ccffcc;
+}
+#username{
+    margin-bottom: 20px;
+    display: ruby; 
+    text-align: center;
+}
+#password{
+    margin-bottom: 20px;
+    text-align: center;
+    text-orientation: sideways-right;
+}
+#header p{
+    font-family: Verdana;
+    font-size: 25px;
+    background: rgba(10, 120, 10, 0.2);
+    font-weight: lighter;
+}
+.clear-button{
+    border-radius: 5px;
+    border-color: rgba(5, 200, 50, 0.6);
+    display: compact;
+}
